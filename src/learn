@@ -1,0 +1,16 @@
+1、mybatis逆向工程
+    *导入mybatis-generate的依赖
+    *配置mbg.xml配置文件
+    *创建Test类
+2、利用PageHelper进行分页
+    *导入pageHelper的依赖文件
+    *mybatis核心配置文件中注册分页插件
+    *调用PageHelper.startPage(0,5);进行分页
+3、bootstrap前端框架的使用
+    *栅格系统
+    *样式表单
+    *模态框
+4、后端校验SpringMVC自带JSR303校验
+    *导入Hibernate-validator依赖
+    *Controller中添加@Validated
+    *在polo的属性上添加相应的校验
